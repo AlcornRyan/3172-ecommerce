@@ -1,0 +1,11 @@
+.bottomFooter {
+    border-top: 1px solid #cccccc;
+}
+.bottomFooter p {
+    padding: 0px;
+    margin: 0px;
+}
+.footerColumn p {
+    padding: 0px;
+    margin: 0px;
+}
