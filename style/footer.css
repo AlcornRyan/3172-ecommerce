@@ -1,0 +1,18 @@
+.Footer {
+    border-top: 1px solid #CCCCCC;
+    background-color: #F9F9F9;
+}
+.topFooter {
+    padding-bottom: 20px;
+}
+.bottomFooter {
+    border-top: 1px solid #cccccc;
+}
+.bottomFooter p {
+    padding: 0px;
+    margin: 0px;
+}
+.footerColumn p {
+    padding: 0px;
+    margin: 0px;
+}
