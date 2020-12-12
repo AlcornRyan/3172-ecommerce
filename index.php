@@ -27,16 +27,26 @@
 	<?php
 
 	// Header
-	require_once('header.php');
+	require_once('include/header.php');
 
 	?>
 
 	<main>
-
+	
 	<?php
 
-	// Landing page
-	require_once('include/landing.php');
+	if (!isset($_GET['page'])) { 						// page not set, display landing page
+
+		// Landing page
+		require_once('include/landing.php');
+
+	} else if ($_GET['page'] == "browse") { 			// page == browse
+
+		require_once('include/browse.php');
+
+	}
+
+	
 
 	?>
 
