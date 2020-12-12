@@ -1,10 +1,10 @@
 <!-- Item 1 -->
 <div class="row p-md-2">
-    <div class="col-md-12 featuredItemContainer">
+    <div class="col-md-12 card_Container">
                             
         <!-- Item Image -->
         <div class="row">
-            <div class="col-md-12 featuredItemImage">
+            <div class="col-md-12 card_Image">
                 <img src="image.jpg" />
             </div>
         </div>
