@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="style/header.css">
 	<link rel="stylesheet" type="text/css" href="style/landing.css">
 	<link rel="stylesheet" type="text/css" href="style/cardStyle.css">
+	<link rel="stylesheet" type="text/css" href="style/browse.css">
 	<link rel="stylesheet" type="text/css" href="style/footer.css">
   </head>
   <body>
