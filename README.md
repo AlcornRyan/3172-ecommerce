@@ -4,14 +4,15 @@ README file:
 * Aref Abdi Poor (B00812823) 
 * Clarizze Santos (B00730508) 
 * Deep Dave (B00) 
+* Ruiyuan Wang (B00630437)
 * Ryan Alcorn (B00807602) 
  
 ## Table of Contents 
 - [Description](#description)
-- [Design Justifications] (#design-justifications) 
-- [Local development] (#local-development) 
-- [Built With] (#built-with) 
-- [Sources Used] (#sources-used) 
+- [Design Justifications](#design-justifications) 
+- [Local development](#local-development) 
+- [Built With](#built-with) 
+- [Sources Used](#sources-used) 
  
 ## Description 
  
