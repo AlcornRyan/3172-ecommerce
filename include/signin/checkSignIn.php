@@ -32,7 +32,7 @@
             *  login user id of user
             */
 			$userID = $resultArray[0]['login_user_id'];
-              
+            
             /*
             *  query users table for login user id of..
             */
