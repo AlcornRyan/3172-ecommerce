@@ -1,8 +1,8 @@
 <?php
     /*
-    *  If submitbtn is set
+    *  If signinbtn is set
     */
-    if (isset($_POST['submitbtn'])) {
+    if (isset($_POST['signinbtn'])) {
 
         /*
         *  Sanitize input
