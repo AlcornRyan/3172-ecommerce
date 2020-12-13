@@ -1,6 +1,7 @@
 .card_Container {
     min-height: 220px;
     border: 1px solid #cccccc;
+    background-color: #FFFFFF;
 }
 .card_Image {
     min-height: 190px;

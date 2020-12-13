@@ -1,8 +1,8 @@
 <div class="container-fluid Browse">
-    <div class="row px-2">
+    <div class="row pt-2 px-2">
 
         <!-- -->
-        <div class="col-sm-12 col-md-3 pt-2">
+        <div class="col-sm-12 col-md-3 pt-2 pl-md-4 pr-md-4">
         <?php
 
             // Browse Sort Container
