@@ -1,11 +1,9 @@
 .card_Container {
     min-height: 220px;
-    border-radius: 12px;
     border: 1px solid #cccccc;
+    background-color: #FFFFFF;
 }
 .card_Image {
     min-height: 190px;
     background-color: #eeeeee;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 }

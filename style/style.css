@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* unvisited link */
+a:link {
+    color: #000000;
+    text-decoration: none;
+  }
+
+/* visited link */
+a:visited {
+color: #000000;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: blue;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color: #000000;
+text-decoration: none;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #CCCCCC;
+}
