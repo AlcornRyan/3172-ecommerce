@@ -1,0 +1,13 @@
+.SignUp {
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.signUpBox {
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+}
