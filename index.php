@@ -2,6 +2,7 @@
 	require_once "db/db.php";
 	require_once "include/sanitize.php";
 	require_once "include/signin/checkSignIn.php";
+	require_once "include/signout.php";
 ?>
 <!doctype html>
 <html lang="en">
