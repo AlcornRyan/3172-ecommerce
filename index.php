@@ -1,5 +1,7 @@
 <?php
 	require_once "db/db.php";
+	require_once "include/sanitize.php";
+	require_once "include/signin/checkSignIn.php";
 ?>
 <!doctype html>
 <html lang="en">
