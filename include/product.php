@@ -1,15 +1,18 @@
 <div class="container-fluid Product">
-    <div class="row pt-2 px-2">
+    <div class="row p-2">
 
-        <!-- -->
-        <div class="col-sm-12 col-md-3 pt-2 pl-md-4 pr-md-4">
+        <!-- Product Images and Product -->
+        <div class="col-sm-12 col-md-12 bg-light">
         <?php
+
+            // Product Container
+            require_once('product/productCon.php');
 
         ?>
         </div>
 
-        <!-- -->
-        <div class="col-sm-12 col-md-9 pt-2">
+        <!--  -->
+        <div class="col-sm-12 col-md-12">
         <?php
 
         ?>

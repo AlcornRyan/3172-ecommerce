@@ -19,7 +19,10 @@
         <a class="nav-link" href="index.php?page=browse">Browse</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Browse</a>
+        <a class="nav-link" href="index.php?page=signin">Sign in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?page=signup">Sign up</a>
       </li>
     </ul>
 
