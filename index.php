@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="style/landing.css">
 	<link rel="stylesheet" type="text/css" href="style/cardStyle.css">
 	<link rel="stylesheet" type="text/css" href="style/browse.css">
+	<link rel="stylesheet" type="text/css" href="style/product.css">
 	<link rel="stylesheet" type="text/css" href="style/footer.css">
   </head>
   <body>
@@ -44,6 +45,10 @@
 	} else if ($_GET['page'] == "browse") { 			// page == browse
 
 		require_once('include/browse.php');
+
+	} else if ($_GET['page'] == "product") { 			// page == product
+
+		require_once('include/product.php');
 
 	}
 
