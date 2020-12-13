@@ -1,11 +1,11 @@
 README file: 
 # BeautyBuy website
 ## Author 
-* Aref Abdi Poor (B00812823) 
-* Clarizze Santos (B00730508) 
-* Deep Dave (B00) 
-* Ruiyuan Wang (B00630437)
-* Ryan Alcorn (B00807602) 
+* Aref Abdi Poor
+* Clarizze Santos
+* Deep Dave
+* Ruiyuan Wang
+* Ryan Alcorn
  
 ## Table of Contents 
 - [Description](#description)
