@@ -29,3 +29,15 @@ Category Banner
     min-height: 300px;
     background-color: #FE7966;
 }
+    .browse_SortBar a:hover {
+        color: blue;
+    }
+
+
+/*
+
+*/
+.browseContainer {
+    height: auto;
+    min-height: 500px;
+}
