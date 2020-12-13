@@ -1,0 +1,32 @@
+.Product {
+    background-color: #FEF7ED;
+}
+
+.product_Image {
+    background-color: #eee;
+}
+    .product_ImageCon {
+        width: 100%;
+        height: auto;
+        min-height: 420px;
+        background-color: #ccc;
+    }
+    .productImageSelectorCon {
+        width: 100%;
+        height: auto;
+        min-height: 120px;
+        background-color: #ccc;
+    }
+
+.product_Details {
+    background-color: #eee;
+}
+    .product_DetailsCon {
+        background-color: #ccc;
+    }
+        .prod_TitleDescCon h4 {
+            margin-bottom: 5px;
+        }
+        .prod_TitleDescCon p {
+            margin-bottom: 2px;
+        }

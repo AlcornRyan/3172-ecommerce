@@ -11,6 +11,8 @@
 
     // Featured Items Container
     require_once('landing/featuredCon.php');
+    
+    // Trending Items Container
     require_once('landing/trendingCon.php');
 
     ?>
