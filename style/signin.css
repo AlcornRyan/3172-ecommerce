@@ -11,3 +11,10 @@
     border: 1px solid #CCCCCC;
     border-radius: 12px;
 }
+.signInCon {
+    padding-top: 120px;
+}
+    .signInCon label {
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
