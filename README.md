@@ -56,5 +56,5 @@ For PCs using XAMPP:
 ## Description 
  
 The components used in the website application were from [Material UI] (https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
-* Layout – grids, columns, containers
+* Layout – grids, containers, columns, rows
 * Forms - buttons
