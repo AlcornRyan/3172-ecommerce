@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="style/cardStyle.css">
 	<link rel="stylesheet" type="text/css" href="style/browse.css">
 	<link rel="stylesheet" type="text/css" href="style/product.css">
+	<link rel="stylesheet" type="text/css" href="style/signin.css">
+	<link rel="stylesheet" type="text/css" href="style/signup.css">
 	<link rel="stylesheet" type="text/css" href="style/footer.css">
   </head>
   <body>
@@ -49,6 +51,14 @@
 	} else if ($_GET['page'] == "product") { 			// page == product
 
 		require_once('include/product.php');
+
+	} else if ($_GET['page'] == "signin") { 			// page == signin
+
+		require_once('include/signin.php');
+
+	} else if ($_GET['page'] == "signup") { 			// page == signup
+
+		require_once('include/signup.php');
 
 	}
 
