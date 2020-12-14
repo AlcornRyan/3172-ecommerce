@@ -40,6 +40,9 @@
     box-shadow: 1px 1px 4px #CCCCCC;
 }
     .dash_ItemEven {
+        background-color: #F3F3F3;
+    }
+    .dash_ItemOdd {
         background-color: #FFFFFF;
     }
 
