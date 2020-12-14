@@ -71,8 +71,8 @@
                 <?php
                 }
                 /*
-                * If user type == 1, user is BeautyBuy MANAGER / SALES / MARKETING : SHOW PRODUCTS & ANALYTICS
-                * If user type == 4, user is Store MANAGER / SALES / MARKETING EMPLOYEE : SHOW PRODUCTS & ANALYTICS
+                * If user type == 2, user is BeautyBuy MANAGER / SALES / MARKETING : SHOW PRODUCTS & ANALYTICS
+                * If user type == 5, user is Store MANAGER / SALES / MARKETING EMPLOYEE : SHOW PRODUCTS & ANALYTICS
                 */
                 else if ($_COOKIE['userType'] == 2 || $_COOKIE['userType'] == 5) {
                 ?>
