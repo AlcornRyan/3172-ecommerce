@@ -10,7 +10,7 @@
     <div class="col-sm-12 col-md-6 su_rightCon">
         <div class="signUpCon">
 
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-8">
     
                     <!-- Sign up form -->
