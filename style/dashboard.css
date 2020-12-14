@@ -16,6 +16,14 @@
         margin-bottom: 0px;
         padding-top: 5px;
     }
+    .dash_NavOptions a {
+        width: 100%;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .dash_NavOptions a:hover {
+        color: blue;
+    }
 
 /*
 * Dashboard Sort Bar

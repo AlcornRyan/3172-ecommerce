@@ -9,13 +9,31 @@
             </div>
 
             <!-- -->
-            <div class="row">
-
+            <div class="row dash_NavOptions">
+                <div class="col-md-12 p-0">
+                    <a href="index.php?page=dashboard&nav=account">Account</a>
+                </div>
             </div>
 
             <!-- -->
-            <div class="row">
+            <div class="row dash_NavOptions">
+                <div class="col-md-12 p-0">
+                    <a href="index.php?page=dashboard&nav=users">User Dashboard</a>
+                </div>
+            </div>
 
+            <!-- -->
+            <div class="row dash_NavOptions">
+                <div class="col-md-12 p-0">
+                    <a href="index.php?page=dashboard&nav=product">Product Dashboard</a>
+                </div>
+            </div>
+
+            <!-- -->
+            <div class="row dash_NavOptions">
+                <div class="col-md-12 p-0">
+                    <a href="index.php?page=dashboard&nav=analytics">Analytics Dashboard</a>
+                </div>
             </div>
         
         </div>
