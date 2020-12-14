@@ -1,3 +1,11 @@
+<?php
+/*
+* If user is not logged in, re-direct to sign in page with error message
+*/
+if (!isset($_COOKIE['loggedIn'])) {
+    header('location: index.php?error=dashboard&reason=notloggedin');
+}
+?>
 <div class="container-fluid Dashboard">
     <div class="row pt-2 px-2">
 
