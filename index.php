@@ -22,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="style/cardStyle.css">
 	<link rel="stylesheet" type="text/css" href="style/browse.css">
 	<link rel="stylesheet" type="text/css" href="style/product.css">
+	<link rel="stylesheet" type="text/css" href="style/payment.css">
 	<link rel="stylesheet" type="text/css" href="style/signin.css">
 	<link rel="stylesheet" type="text/css" href="style/signup.css">
 	<link rel="stylesheet" type="text/css" href="style/footer.css">
@@ -66,10 +67,11 @@
 
 		require_once('include/signup.php');
 
-	}
+	} else if ($_GET['page'] == "payment") { 			// page == payment
 
-	
+		require_once('include/payment.php');
 
+	} 
 	?>
 
 	</main>
