@@ -23,7 +23,7 @@
             /*
             * Inserting sign up information into users table
             */
-            $insertUsersQuery = "INSERT into users (`u_fname`, `u_lname`, `u_email`, `u_type`, `u_store`) values('{$myFName}', '{$myLName}', '{$myEmail}', '0', '0')";
+            $insertUsersQuery = "INSERT into users (`u_fname`, `u_lname`, `u_email`) values('{$myFName}', '{$myLName}', '{$myEmail}')";
 
             if (!$conn->query($insertUsersQuery)) {
                 die ("Nooooooooo!" . $conn->error);
