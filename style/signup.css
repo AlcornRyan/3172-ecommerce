@@ -7,10 +7,33 @@
     width: 100%;
     height: auto;
     min-height: 600px;
-    background-color: #EEEEEE;
     border: 1px solid #CCCCCC;
     border-radius: 12px;
+    box-shadow: 2px 2px 5px #EEEEEE;
 }
-.signUpCon {
-    padding-top: 20px;
+.su_leftCon {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    background-color: #F9F9F9;
+    border-radius: 12px 0px 0px 12px;
+    border-right: 1px solid #CCCCCC;
 }
+    .su_leftCon img {
+        width: 70%;
+        margin-top: 180px;
+        margin-left: 17%;
+        vertical-align: middle;
+    }
+
+.su_rightCon {
+    background-color: #FFFFFF;
+    border-radius: 0px 12px 12px 0px;
+}
+    .signUpCon {
+        padding-top: 20px;
+    }
+        .signUpCon label {
+            margin-top: 10px;
+            margin-bottom: 2px;
+        }

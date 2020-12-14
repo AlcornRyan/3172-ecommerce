@@ -2,12 +2,12 @@
 <div class="row signUpBox">
     
     <!-- Left Side -->
-    <div class="d-sm-block col-md-6">
-        
+    <div class="d-sm-block col-md-6 su_leftCon">
+        <img src="images/signup.svg" />
     </div>
 
     <!-- Right Side - Sign Up-->
-    <div class="col-sm-12 col-md-6">
+    <div class="col-sm-12 col-md-6 su_rightCon">
         <div class="signUpCon">
 
             <div class="row justify-content-center">
