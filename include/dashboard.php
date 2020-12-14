@@ -1,5 +1,31 @@
 <?php
 /*
+* DASHBOARD LOGIC via userType
+
+* 0 = ADMIN
+* Access: EVERYTHING
+
+* 1 = BeautyBuy - Customer Service
+* Access: User Dashboard (For every user - sensitive info not available)
+
+* 2 = BeautyBuy - Manager / Sales / Marketing
+* Access: Products & Analytics (For every store)
+
+* 3 = Store Owner
+* Access: All Information for their store
+
+* 4 = Store - Customer Service
+* Access: User Dashboard (Users who purchased their items)
+
+* 5 = Store - Manager / Sales / Marketing
+* Access: Products & Analytics (For their store)
+
+* 8 = Valued Customer
+* Access: Account
+
+* 9 = Regular Customer
+* Access: Account
+
 * If user is not logged in, re-direct to sign in page with error message
 */
 if (!isset($_COOKIE['loggedIn'])) {
