@@ -24,6 +24,7 @@
 	<link rel="stylesheet" type="text/css" href="style/browse.css">
 	<link rel="stylesheet" type="text/css" href="style/product.css">
 	<link rel="stylesheet" type="text/css" href="style/payment.css">
+	<link rel="stylesheet" type="text/css" href="style/dashboard.css">
 	<link rel="stylesheet" type="text/css" href="style/signin.css">
 	<link rel="stylesheet" type="text/css" href="style/signup.css">
 	<link rel="stylesheet" type="text/css" href="style/footer.css">
@@ -71,6 +72,10 @@
 	} else if ($_GET['page'] == "payment") { 			// page == payment
 
 		require_once('include/payment.php');
+
+	}  else if ($_GET['page'] == "dashboard") { 		// page == dashboard
+
+		require_once('include/dashboard.php');
 
 	} 
 	?>

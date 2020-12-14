@@ -26,10 +26,10 @@
     </ul>
     
     <!-- Search Bar & Button -->
-    <form class="form-inline my-2 my-lg-0 mr-2">
+    <!-- <form class="form-inline my-2 my-lg-0 mr-2">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
 
     <?php
 		if (isset($_COOKIE['loggedIn'])) {
@@ -41,7 +41,12 @@
 
       <!-- Account Link -->
       <li class="nav-item">
-        <a class="nav-link" href="index.php?page=Account">Account</a>
+        <a class="nav-link" href="index.php?page=account">Account</a>
+      </li>
+
+      <!-- Account Link -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?page=dashboard">Dashboard</a>
       </li>
 
       <!-- Logout Link -->
