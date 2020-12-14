@@ -4,7 +4,9 @@
     padding-bottom: 30px;
     background-color: #FFFFFF;
 }
-
+    .dash_Header {
+        border-bottom: 1px solid #CCCCCC;
+    }
 /*
 * Dashboard Navigation Bar
 */
@@ -12,10 +14,6 @@
     background-color: #F9F9F9;
     box-shadow: 1px 1px 4px #CCCCCC;
 }
-    .dash_NavBar h4 {
-        margin-bottom: 0px;
-        padding-top: 5px;
-    }
     .dash_NavOptions a {
         width: 100%;
         margin-left: 10px;
@@ -41,3 +39,11 @@
     background-color: #F9F9F9;
     box-shadow: 1px 1px 4px #CCCCCC;
 }
+    .dash_ItemEven {
+        background-color: #FFFFFF;
+    }
+
+
+/*
+* Dashboard User Item
+*/
