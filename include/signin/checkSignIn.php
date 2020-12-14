@@ -1,8 +1,8 @@
 <?php
     /*
-    *  If submitbtn is set
+    *  If signinbtn is set
     */
-    if (isset($_POST['submitbtn'])) {
+    if (isset($_POST['signinbtn'])) {
 
         /*
         *  Sanitize input
@@ -32,7 +32,7 @@
             *  login user id of user
             */
 			$userID = $resultArray[0]['login_user_id'];
-              
+            
             /*
             *  query users table for login user id of..
             */

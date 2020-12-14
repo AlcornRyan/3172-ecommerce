@@ -1,53 +1,65 @@
-<?php
-    if(isset($_POST['signup'])) {
-        $firstName = $_POST['signupfirstName'];
-        $lastName = $_POST['signuplastName'];
-        $email = $_POST['signupEmail'];
-        $pass = $_POST['signupPassword'];
-        $pass2 = $_POST['signupPassword2'];
-
-        echo $firstName + " " + $lastName + " " + $email;
-    }
-?>
 <!-- Sign in Centered Box -->
 <div class="row signUpBox">
     
     <!-- Left Side -->
     <div class="d-sm-block col-md-6">
-        <p>left side</p>
-        Make left side not appear for small screens
+        
     </div>
 
     <!-- Right Side - Sign Up-->
-    <div class="d-sm-block col-md-6">
-        <!-- Sign up form -->
-        <form>
-            <div class="signupcontainer">
+    <div class="col-sm-12 col-md-6">
+        <div class="signUpCon">
 
-                <div class="row">
-                    <div class="col">
-                        <h1>Sign Up</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-8">
+    
+                    <!-- Sign up form -->
+                    <form class="justify-content-center" method="POST" action="index.php">
+
+                        <!-- Form Title -->
+                        <h1>Sign-up</h1>
                         <hr class="mb-3">
-                        <label for="firstName"><b>First Name</b></label>
-                        <input class="form-control" type="text" name="signupfirstName" required>
 
-                        <label for="lastName"><b>Last Name</b></label>
-                        <input class="form-control" type="text" name="signuplastName" required>
-
-                        <label for="signupEmail"><b>Email Address</b></label>
-                        <input class="form-control" type="email" name="signupEmail" required>
-
-                        <label for="signupPassword"><b>Password</b></label>
-                        <input class="form-control" type="password" name="signupPassword" required>
-
-                        <label for="signupPassword2"><b>Re-enter Password</b></label>
-                        <input class="form-control" type="password" name="signupPassword2" required>
+                        <!-- First Name -->
+                        <div class="form-group">
+                            <label for="firstName"><b>First Name</b></label>
+                            <input class="form-control" type="text" name="su_fname" maxlength="50" required>
+                        </div>
                         
-                        <hr class="mb-3">
-                        <input class="btn btn-primary" type="submit" name="signUp" value="Sign Up">
-                    </div>
+                        <!-- Last Name -->
+                        <div class="form-group">
+                            <label for="lastName"><b>Last Name</b></label>
+                            <input class="form-control" type="text" name="su_lname" maxlength="50" required>
+                        </div>
+                        
+                        <!-- Last Name -->
+                        <div class="form-group">
+                            <label for="signupEmail"><b>Email Address</b></label>
+                            <input class="form-control" type="email" name="su_email" maxlength="60" required>
+                        </div>
+                        
+                        <!-- Password -->
+                        <div class="form-group">
+                            <label for="signupPassword"><b>Password</b></label>
+                            <input class="form-control" type="password" name="su_pswd" maxlength="256" required>
+                        </div>
+                        
+                        <!-- Re-enter Password -->
+                        <div class="form-group">
+                            <label for="signupPassword2"><b>Re-enter Password</b></label>
+                            <input class="form-control" type="password" name="su_re_pswd" maxlength="256" required>
+                        </div>
+                        
+                        <!-- Signup Button -->
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg" name="signupbtn">Sign up</button>
+                        </div>
+                    
+                    </form>
+
                 </div>
             </div>
-        </form>
+        </div>
     </div>
+
 </div>
