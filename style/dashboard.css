@@ -1,19 +1,35 @@
 .Dashboard {
+    height: auto;
+    min-height: 500px;
+    padding-bottom: 30px;
     background-color: #FFFFFF;
 }
 
+/*
+* Dashboard Navigation Bar
+*/
+.dash_NavBar {
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 4px #CCCCCC;
+}
+    .dash_NavBar h4 {
+        margin-bottom: 0px;
+        padding-top: 5px;
+    }
 
 /*
-    Dashboard Sort Bar
+* Dashboard Sort Bar
 */
 .dash_SortBar {
     background-color: #F9F9F9;
+    box-shadow: 1px 1px 4px #CCCCCC;
 }
 
 
 /*
-    Dashboard Output Container
+* Dashboard Output Container
 */
 .dash_OutputCon {
     background-color: #F9F9F9;
+    box-shadow: 1px 1px 4px #CCCCCC;
 }

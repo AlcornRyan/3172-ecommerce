@@ -3,7 +3,20 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="container-fluid">
             
-            Sort bar
+            <!-- -->
+            <div class="row">
+                <h4>Sort</h4>
+            </div>
+
+            <!-- -->
+            <div class="row">
+
+            </div>
+
+            <!-- -->
+            <div class="row">
+
+            </div>
         
         </div>
     </div>
