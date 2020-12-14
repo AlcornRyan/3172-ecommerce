@@ -2,8 +2,8 @@
 <div class="row signInBox">
     
     <!-- Left Side -->
-    <div class="d-sm-block col-md-6">
-        
+    <div class="d-sm-block col-md-6 si_leftCon">
+        <img src="images/login.svg" />
     </div>
 
     <!-- Right Side - Sign-in-->
