@@ -46,7 +46,7 @@ if (isset($_COOKIE['userType'])) {
         $getUsersQuery = "SELECT * FROM users";
         
     }
-    else if ($_COOKIE['userType'] == "0") {
+    else if ($_COOKIE['userType'] == "1") {
         
         /*
         * If userType == 1 == BeautyBuy Customer Service
@@ -54,7 +54,7 @@ if (isset($_COOKIE['userType'])) {
         $getUsersQuery = "SELECT * FROM users WHERE `u_type`!='0'";
 
     }
-    else if ($_COOKIE['userType'] == "0") {
+    else if ($_COOKIE['userType'] == "3") {
         
         /*
         * If userType == 3 == STORE OWNER
@@ -67,7 +67,7 @@ if (isset($_COOKIE['userType'])) {
         // Needs a purchase history table to query users who purchased their items
 
     }
-    else if ($_COOKIE['userType'] == "0") {
+    else if ($_COOKIE['userType'] == "4") {
         
         /*
         * If userType == 4 == STORE Customer Service
@@ -112,7 +112,7 @@ if($getUsersResult->num_rows > 0) {
         }
 ?>
 
-        <div class="row py-2 <?php echo $userItemBG; ?>">
+        <div class="row py-2<?php echo $userItemBG; ?>">
                     
             <!-- -->
             <div class="col-xs-12 col-sm-12 col-md-2 border-right">
