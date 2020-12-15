@@ -4,6 +4,7 @@
 	require_once "include/signin/checkSignIn.php";
 	require_once "include/signup/checkSignUp.php";
 	require_once "include/signout.php";
+	require_once "include/dashboard/dashCheckAddProduct.php";
 ?>
 <!doctype html>
 <html lang="en">
