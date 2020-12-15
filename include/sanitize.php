@@ -10,4 +10,13 @@
 
 }
 
+function validateProductData($data) {
+    
+	$returnValue = stripslashes($returnValue); // Removes slashes
+	$returnValue = htmlspecialchars($returnValue); // Changes special characters into HTML entities
+    
+    return $returnValue;
+
+}
+
 ?>

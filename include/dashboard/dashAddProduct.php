@@ -20,19 +20,19 @@
                 <!-- Name -->
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-1">
                     <label for="prod_Name">Product Name</label>
-                    <input type="text" class="form-control" id="prod_Name" maxlength="128" placeholder="Enter product name">
+                    <input type="text" class="form-control" id="prod_Name" maxlength="128" placeholder="Enter product name" required>
                 </div>
                 
                 <!-- Description -->
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
                     <label for="prod_Desc">Product Description</label>
-                    <input type="text" class="form-control" id="prod_Desc" maxlength="256" placeholder="Enter product description">
+                    <input type="text" class="form-control" id="prod_Desc" maxlength="256" placeholder="Enter product description" required>
                 </div>
                 
                 <!-- Category -->
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
-                    <label for="exampleFormControlSelect1">Product Category</label>
-                    <select class="form-control" id="prod_Category">
+                    <label for="prod_Category">Product Category</label>
+                    <select class="form-control" id="prod_Category" required>
                         <option selected>Select a Category</option>
                         <option value="shampoo">Shampoo</option>
                         <option value="conditioner">Conditioner</option>
@@ -45,13 +45,13 @@
                 <!-- Price -->
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
                     <label for="prod_Price">Product Price</label>
-                    <input type="text" class="form-control" id="prod_Price" maxlength="7" placeholder="Enter price of product (ex. 37.55)">
+                    <input type="text" class="form-control" id="prod_Price" maxlength="7" placeholder="Enter price of product (ex. 37.55)" required>
                 </div>
                 
                 <!-- Inventory -->
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
                     <label for="prod_Inventory">Product Inventory</label>
-                    <input type="text" class="form-control" id="prod_Inventory" maxlength="7" placeholder="Enter number of products you have to sell">
+                    <input type="text" class="form-control" id="prod_Inventory" maxlength="7" placeholder="Enter number of products you have to sell" required>
                 </div>
 
             </div>
@@ -68,7 +68,7 @@
                 <!-- Image One -->
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-1">
                     <label for="prod_Imag1">Image One</label>
-                    <input type="text" class="form-control" id="prod_Imag1" maxlength="128" placeholder="URL of first image">
+                    <input type="text" class="form-control" id="prod_Imag1" maxlength="128" placeholder="URL of first image" required>
                 </div>
                 
                 <!-- Image Two -->
@@ -101,13 +101,13 @@
                 <!-- Detail Title One -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-1">
                     <label for="prod_DetailTitle1">Detail Title One</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle1" maxlength="50" placeholder="Title of first product detail">
+                    <input type="text" class="form-control" id="prod_DetailTitle1" maxlength="50" placeholder="Title of first product detail" required>
                 </div>
                 
                 <!-- Detail Description One -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-3">
                     <label for="prod_DetailDesc1">Detail Description One</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc1" maxlength="1024" placeholder="Description of first product detail">
+                    <input type="text" class="form-control" id="prod_DetailDesc1" maxlength="1024" placeholder="Description of first product detail" required>
                 </div>
                 
                 <!-- Detail Title Two -->
@@ -189,7 +189,7 @@
     <!-- -->
     <div class="row p-2 mb-1 text-center">
         <div class="col-xs-12 col-sm-12 col-md-12 pt-4">
-            <button type="submit" name="submitAddProduct" class="btn btn-lg btn-primary">Add Product</button>
+            <button type="submit" name="addProdBtn" class="btn btn-lg btn-primary">Add Product</button>
         </div>
     </div>
 
