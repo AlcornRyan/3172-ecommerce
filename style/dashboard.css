@@ -45,6 +45,18 @@
     .dash_ItemOdd {
         background-color: #FFFFFF;
     }
+    .dash_addItem {
+        max-height: 30px !important;
+        margin-top: -1px;
+        padding-top: 2px;
+        padding-bottom: 4px;
+    }
+    .dash_viewItem:hover {
+        color: blue;
+    }
+    .dash_productImg {
+        width: 100px;
+    }
 
 
 /*
