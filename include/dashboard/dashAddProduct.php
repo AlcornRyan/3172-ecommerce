@@ -95,7 +95,7 @@
             
             <h5 class="mt-2"><b>Product Details</b></h5>
             
-            <!-- Product Information Container -->
+            <!-- Product Details Container -->
             <div class="row form-group">
                 
                 <!-- Detail Title One -->
@@ -113,73 +113,73 @@
                 <!-- Detail Title Two -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
                     <label for="prod_DetailTitle2">Detail Title Two</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle2" maxlength="50" placeholder="Title of first product detail">
+                    <input type="text" class="form-control" id="prod_DetailTitle2" maxlength="50" placeholder="Title of second product detail">
                 </div>
                 
                 <!-- Detail Description Two -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
                     <label for="prod_DetailDesc2">Detail Description Two</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc2" maxlength="1024" placeholder="Description of first product detail">
+                    <input type="text" class="form-control" id="prod_DetailDesc2" maxlength="1024" placeholder="Description of second product detail">
                 </div>
                 
                 <!-- Detail Title Three -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailTitle">Detail Title Three</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle" maxlength="50" placeholder="Title of first product detail">
+                    <label for="prod_DetailTitle3">Detail Title Three</label>
+                    <input type="text" class="form-control" id="prod_DetailTitle3" maxlength="50" placeholder="Title of third product detail">
                 </div>
                 
                 <!-- Detail Description Three -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailDesc">Detail Description Three</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc" maxlength="1024" placeholder="Description of first product detail">
+                    <label for="prod_DetailDesc3">Detail Description Three</label>
+                    <input type="text" class="form-control" id="prod_DetailDesc3" maxlength="1024" placeholder="Description of third product detail">
                 </div>
                 
                 <!-- Detail Title Four -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailTitle">Detail Title Four</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle" maxlength="50" placeholder="Title of first product detail">
+                    <label for="prod_DetailTitle4">Detail Title Four</label>
+                    <input type="text" class="form-control" id="prod_DetailTitle4" maxlength="50" placeholder="Title of fourth product detail">
                 </div>
                 
                 <!-- Detail Description Four -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailDesc">Detail Description Four</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc" maxlength="1024" placeholder="Description of first product detail">
+                    <label for="prod_DetailDesc4">Detail Description Four</label>
+                    <input type="text" class="form-control" id="prod_DetailDesc4" maxlength="1024" placeholder="Description of fourth product detail">
                 </div>
                 
                 <!-- Detail Title Five -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailTitle">Detail Title Five</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle" maxlength="50" placeholder="Title of first product detail">
+                    <label for="prod_DetailTitle5">Detail Title Five</label>
+                    <input type="text" class="form-control" id="prod_DetailTitle5" maxlength="50" placeholder="Title of fifth product detail">
                 </div>
                 
                 <!-- Detail Description Five -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailDesc">Detail Description Five</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc" maxlength="1024" placeholder="Description of first product detail">
+                    <label for="prod_DetailDesc5">Detail Description Five</label>
+                    <input type="text" class="form-control" id="prod_DetailDesc5" maxlength="1024" placeholder="Description of fifth product detail">
                 </div>
                 
                 <!-- Detail Title Six -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailTitle">Detail Title Six</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle" maxlength="50" placeholder="Title of first product detail">
+                    <label for="prod_DetailTitle6">Detail Title Six</label>
+                    <input type="text" class="form-control" id="prod_DetailTitle6" maxlength="50" placeholder="Title of sixth product detail">
                 </div>
                 
                 <!-- Detail Description Six -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailDesc">Detail Description Six</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc" maxlength="1024" placeholder="Description of first product detail">
+                    <label for="prod_DetailDesc6">Detail Description Six</label>
+                    <input type="text" class="form-control" id="prod_DetailDesc6" maxlength="1024" placeholder="Description of sixth product detail">
                 </div>
                 
                 <!-- Detail Title Seven -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailTitle">Detail Title Seven</label>
-                    <input type="text" class="form-control" id="prod_DetailTitle" maxlength="50" placeholder="Title of seventh product detail">
+                    <label for="prod_DetailTitle7">Detail Title Seven</label>
+                    <input type="text" class="form-control" id="prod_DetailTitle7" maxlength="50" placeholder="Title of seventh product detail">
                 </div>
                 
                 <!-- Detail Description Seven -->
                 <div class="col-xs-12 col-sm-12 col-md-6 mt-4">
-                    <label for="prod_DetailDesc">Detail Description Seven</label>
-                    <input type="text" class="form-control" id="prod_DetailDesc" maxlength="1024" placeholder="Description of seventh product detail">
+                    <label for="prod_DetailDesc7">Detail Description Seven</label>
+                    <input type="text" class="form-control" id="prod_DetailDesc7" maxlength="1024" placeholder="Description of seventh product detail">
                 </div>
 
             </div>
