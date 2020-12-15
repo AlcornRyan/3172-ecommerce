@@ -34,7 +34,7 @@
                         * nav == product
                         */
                         else if ($_GET['nav'] == "product") {
-                            echo "<h4>Product Dashboard</h4>";
+                            echo "<h4 class='float-left'>Product Dashboard</h4><a class='btn btn-success text-white float-right dash_addItem' href='#' role='button'>+ Add product</a>";
                         }
                         /*
                         * nav == analytics
@@ -82,7 +82,7 @@
                         */
                         else if ($_GET['nav'] == "product") {
                             // Dashboard Product Item
-                            echo "Product item";
+                            require_once('dashProductItem.php');
                         }
                         /*
                         * nav == analytics 
