@@ -8,6 +8,8 @@
                 <div class="col-md-12">
                     <?php
                     /*
+                    * DISPLAYING DASHBOARD HEADER
+                    *
                     * Dashboard Header Title
                     *
                     * Nav variable NOT SET
@@ -34,7 +36,13 @@
                         * nav == product
                         */
                         else if ($_GET['nav'] == "product") {
-                            echo "<h4 class='float-left'>Product Dashboard</h4><a class='btn btn-success text-white float-right dash_addItem' href='#' role='button'>+ Add product</a>";
+                            echo "<h4 class='float-left'>Product Dashboard</h4><a class='btn btn-success text-white float-right dash_addItem' href='index.php?page=dashboard&nav=addProduct' role='button'>+ Add product</a>";
+                        }
+                        /*
+                        * nav == addProduct
+                        */
+                        else if ($_GET['nav'] == "addProduct") {
+                            echo "<h4>Add a Product</h4>";
                         }
                         /*
                         * nav == analytics
@@ -60,6 +68,8 @@
                 <div class="col-md-12">
                 <?php
                     /*
+                    * DISPLAYING DASHBOARD ITEMS
+                    *
                     * nav IS SET 
                     */
                     if (isset($_GET['nav'])) {
@@ -83,6 +93,13 @@
                         else if ($_GET['nav'] == "product") {
                             // Dashboard Product Item
                             require_once('dashProductItem.php');
+                        }
+                        /*
+                        * nav == addProduct
+                        */
+                        else if ($_GET['nav'] == "addProduct") {
+                            // Dashboard Add Product Form
+                            require_once('dashAddProduct.php');
                         }
                         /*
                         * nav == analytics 

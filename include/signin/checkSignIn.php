@@ -57,10 +57,9 @@
 				$userid = $userInfoArray[0]['u_id'];
 				$firstName = $userInfoArray[0]['u_fname'];
 				$lastName = $userInfoArray[0]['u_lname'];
-				$userPhone = $userInfoArray[0]['u_phone'];
 				$userEmail = $userInfoArray[0]['u_email'];
 				$userType = $userInfoArray[0]['u_type'];
-				$userStore = $userInfoArray[0]['u_store'];
+				$userStore = $userInfoArray[0]['s_id'];
 
                 /*
                 *  Set cookie for user information
@@ -72,7 +71,6 @@
 				setcookie("lastName", "{$lastName}", time()+2*24*60*60);
 				setcookie("username", "{$myUsername}", time()+2*24*60*60);
 				setcookie("password", "{$myPassword}", time()+2*24*60*60);
-				setcookie("userPhone", "{$userPhone}", time()+2*24*60*60);
 				setcookie("userEmail", "{$userEmail}", time()+2*24*60*60);
 				setcookie("userType", "{$userType}", time()+2*24*60*60);
 				setcookie("userStore", "{$userStore}", time()+2*24*60*60);
