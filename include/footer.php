@@ -18,17 +18,14 @@
                         <!-- Column 2 -->
                         <div class="col-md-4 footerColumn">
                             <h5>Navigation</h5>
-                            <p>Home page</p>
+                            <p >Home page</p>
                             <p>Browse</p>
-                            <p></p>
+                            <p>Sign Up</p>
+                            <p>Log in</p>
                         </div>
                         
                         <!-- Column 3 -->
                         <div class="col-md-4 footerColumn">
-                            <h5>Navigation</h5>
-                            <p>Home page</p>
-                            <p>Browse</p>
-                            <p></p>
                         </div>
                         
                         <!-- Column 4 -->
