@@ -1,5 +1,5 @@
 .Browse {
-    background-color: #FEF7ED;
+    background-color: #FFF;
 }
 
 
@@ -9,6 +9,8 @@ SORT BAR
 .browse_SortBar {
     height: auto;
     background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
 }
 
 .sortOptionsCon a {
