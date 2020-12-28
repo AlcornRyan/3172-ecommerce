@@ -8,7 +8,7 @@
                 
                 <!-- Column 1 -->
                 <div class="col-md-4 footerColumn">
-                    <h3>BeautyBuy</h3>
+                <img src="../images/logo.svg" alt="beatuBuy logo">
                     <h6>Simple. Elegant. Beautiful.</h6>
                     <p>Designer brands at discount prices</p>
                 </div>
