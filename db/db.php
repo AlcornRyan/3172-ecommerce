@@ -1,7 +1,7 @@
 <?php
 
-    /*
-     *  DO NOT MODIFY
+  /*
+   *  DO NOT MODIFY
 	 *	db.php
 	 *	Connects to the Database on localhost.
 	 */

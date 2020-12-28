@@ -101,7 +101,7 @@
                 </div>
                 
                 <!-- Detail Description One -->
-                <div class="col-xs-12 col-sm-12 col-md-6 mt-3">
+                <div class="col-xs-12 col-sm-12 col-md-6 mt-1">
                     <label for="prod_DetailDesc1">Detail Description One</label>
                     <input type="text" class="form-control" id="prod_DetailDesc1" name="prod_DetailDesc1" maxlength="1024" placeholder="Description of first product detail" required>
                 </div>

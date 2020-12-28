@@ -8,7 +8,7 @@
                 
                 <!-- Column 1 -->
                 <div class="col-md-4 footerColumn">
-                    <h3>BeautyBuy</h3>
+                <img src="../images/logo.svg" alt="beatuBuy logo">
                     <h6>Simple. Elegant. Beautiful.</h6>
                     <p>Designer brands at discount prices</p>
                 </div>
@@ -16,26 +16,19 @@
                 <div class="col-md-8">
                     <div class="row">
                         <!-- Column 2 -->
-                        <div class="col-md-4 footerColumn">
+                        <div class="col-md-8 footerColumn">
                             <h5>Navigation</h5>
-                            <p>Home page</p>
-                            <p>Browse</p>
-                            <p></p>
-                        </div>
-                        
-                        <!-- Column 3 -->
-                        <div class="col-md-4 footerColumn">
-                            <h5>Navigation</h5>
-                            <p>Home page</p>
-                            <p>Browse</p>
-                            <p></p>
+                            <p> <a href="../index.php" >Home</a> <p>
+                            <p> <a href="index.php?page=browse"> Browse</a> </p>
+                            <p> <a href="index.php?page=signup"> Sign Up </a></p>
+                            <p> <a href="index.php?page=signin">Log in</a></p>
                         </div>
                         
                         <!-- Column 4 -->
-                        <div class="col-md-4 footerColumn">
+                        <div class="col-md footerColumn">
                             <h5>Contact us</h5>
-                            <p>Feedback</p>
-                            <p>Support</p>
+                            <p><a href="../index.php?page=feedback">Feedback</a></p>
+                            <p><a href="../index.php?page=faq">FAQ</a></p>
                         </div>
                     </div>
                 </div>

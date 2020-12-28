@@ -6,17 +6,13 @@
   </button>
 
   <!-- LOGO -->
-  <a class="navbar-brand" href="index.php">BeautyBuy</a>
+  <a class="navbar-brand" href="index.php"><img class="logo" src="../images/logo.svg" alt="beatuBuy logo"></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
     <!-- Nav Links -->
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-      <!-- New Arrivals Link -->
-      <li class="nav-item">
-        <a class="nav-link" href="">New Arrivals</a>
-      </li>
 
       <!-- Browse Link -->
       <li class="nav-item">
