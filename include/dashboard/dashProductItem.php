@@ -40,9 +40,12 @@ if (isset($_COOKIE['userType'])) {
     }
     else if ($_COOKIE['userType'] == "3") {
         
+        $userStoreNumber = $_COOKIE['userStore'];
+
         /*
         * If userType == 3 == STORE OWNER
         */
+        $getUsersQuery = "SELECT * FROM products WHERE s_id='$userStoreNumber'";
 
     }
     else if ($_COOKIE['userType'] == "5") {
