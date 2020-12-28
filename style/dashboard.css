@@ -1,0 +1,64 @@
+.Dashboard {
+    height: auto;
+    min-height: 500px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+}
+    .dash_Header {
+        border-bottom: 1px solid #CCCCCC;
+    }
+/*
+* Dashboard Navigation Bar
+*/
+.dash_NavBar {
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 4px #CCCCCC;
+}
+    .dash_NavOptions a {
+        width: 100%;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .dash_NavOptions a:hover {
+        color: blue;
+    }
+
+/*
+* Dashboard Sort Bar
+*/
+.dash_SortBar {
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 4px #CCCCCC;
+}
+
+
+/*
+* Dashboard Output Container
+*/
+.dash_OutputCon {
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 4px #CCCCCC;
+}
+    .dash_ItemEven {
+        background-color: #F3F3F3;
+    }
+    .dash_ItemOdd {
+        background-color: #FFFFFF;
+    }
+    .dash_addItem {
+        max-height: 30px !important;
+        margin-top: -1px;
+        padding-top: 2px;
+        padding-bottom: 4px;
+    }
+    .dash_viewItem:hover {
+        color: blue;
+    }
+    .dash_productImg {
+        width: 100px;
+    }
+
+
+/*
+* Dashboard User Item
+*/

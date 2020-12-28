@@ -5,32 +5,9 @@
         <div class="row">
             
             <!-- Browse Item -->
-            <div class="col-md-4">
             <?php
                 require('browse-item.php');
             ?>
-            </div>
-            
-            <!-- Browse Item -->
-            <div class="col-md-4">
-            <?php
-                require('browse-item.php');
-            ?>
-            </div>
-            
-            <!-- Browse Item -->
-            <div class="col-md-4">
-            <?php
-                require('browse-item.php');
-            ?>
-            </div>
-            
-            <!-- Browse Item -->
-            <div class="col-md-4">
-            <?php
-                require('browse-item.php');
-            ?>
-            </div>
 
         </div>
         <!-- END OF TOP ROW -->
