@@ -1,7 +1,6 @@
 <div class="container-fluid">
 
     <!-- Slideshow -->
-    <div class="row bg-primary slideshowContainer">
         <div class="col-md-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -11,13 +10,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src="..." alt="First slide">
+                        <img class="d-block w-100 img-fluid" src="../images/Banner1.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="..." alt="Second slide">
+                        <img class="d-block w-100 img-fluid" src="../images/Banner2.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="..." alt="Third slide">
+                        <img class="d-block w-100 img-fluid" src="../images/Banner3.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -30,7 +29,6 @@
                 </a>
             </div>
         </div>
-    </div>
 
     <?php
 

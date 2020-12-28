@@ -2,7 +2,7 @@
 <div class="row signInBox">
     
     <!-- Left Side -->
-    <div class="d-sm-block col-md-6 si_leftCon">
+    <div class="col-md-6 si_leftCon d-none d-md-block">
         <img src="images/login.svg" />
     </div>
 
