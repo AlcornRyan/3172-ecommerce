@@ -51,7 +51,7 @@ if($getProductsResult->num_rows > 0) {
                 <!-- Product Name, Description, ID, Ratings -->
                 <div class="row prod_TitleDescCon">
                     <div class="col-md-12">
-                        <h4><?php echo $row['p_desc'] . " <span class='font-weight-normal'>by " .  $row['p_name']; ?></span></h6>
+                        <h4><?php echo $row['p_desc'] . "</h4> <h5 class='mt-1'><span class='font-weight-normal'>by</span> " .  $row['p_name']; ?></h5>
                         <p>Item ID: <?php echo $row['p_id'] + 375265249; ?></p>
                         <p><?php echo $row['p_rating']; ?> Reviews</p>
                     </div>
