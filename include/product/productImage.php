@@ -37,7 +37,6 @@
                     <div class="col-md-4">
                         <?php 
                         if ($pImgThree != "") {
-                        echo $pImgThree;
                         ?>
                         <img src="<?php echo $pImgThree; ?>" class="productImg_Small" />
                         <?php
