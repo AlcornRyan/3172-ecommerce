@@ -2,7 +2,7 @@
 <div class="row signUpBox">
     
     <!-- Left Side -->
-    <div class="d-sm-block col-md-6 su_leftCon">
+    <div class="d-none d-md-block col-md-6 su_leftCon">
         <img src="images/signup.svg" />
     </div>
 
