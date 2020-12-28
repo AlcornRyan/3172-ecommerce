@@ -91,6 +91,14 @@
 
 		require_once('include/payment.php');
 
+	} else if ($_GET['page'] == "faq") { 			// page == payment
+
+		require_once('include/faq.php');
+
+	} else if ($_GET['page'] == "feedback") { 			// page == payment
+
+		require_once('include/feedback.php');
+
 	}  else if ($_GET['page'] == "dashboard") { 		// page == dashboard
 
 		require_once('include/dashboard.php');

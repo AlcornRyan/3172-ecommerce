@@ -6,7 +6,7 @@
   </button>
 
   <!-- LOGO -->
-  <a class="navbar-brand" href="index.php"><img src="../images/logo.svg" alt="beatuBuy logo"></a>
+  <a class="navbar-brand" href="index.php"><img class="logo" src="../images/logo.svg" alt="beatuBuy logo"></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 

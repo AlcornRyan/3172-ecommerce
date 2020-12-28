@@ -21,14 +21,14 @@
                             <p> <a href="../index.php" >Home</a> <p>
                             <p> <a href="index.php?page=browse"> Browse</a> </p>
                             <p> <a href="index.php?page=signup"> Sign Up </a></p>
-                            <p> <a href="index.php?page=signin">Log in</p>
+                            <p> <a href="index.php?page=signin">Log in</a></p>
                         </div>
                         
                         <!-- Column 4 -->
-                        <div class="col-md-4 footerColumn">
+                        <div class="col-md footerColumn">
                             <h5>Contact us</h5>
-                            <p>Feedback</p>
-                            <p>FAQ</p>
+                            <p><a href="../index.php?page=feedback">Feedback</a></p>
+                            <p><a href="../index.php?page=faq">FAQ</a></p>
                         </div>
                     </div>
                 </div>

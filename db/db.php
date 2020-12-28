@@ -6,15 +6,20 @@
 	 *	Connects to the Database on localhost.
 	 */
 
-	$host = "localhost";
-	$un = "root";
-	$pw = "";
-	$db = "beautybuy";
+$user = 'root';
+$password = 'root';
+$db = 'inventory';
+$host = 'localhost';
+$port = 8889;
 
-	$conn = new mysqli($host, $un, $pw, $db);
-
-	if ($conn->connect_error) {
-		die ("Error connecting to the DB.<br>" . $conn->connect_error);
-	}
+$link = mysqli_init();
+$success = mysqli_real_connect(
+   $link,
+   $host,
+   $user,
+   $password,
+   $db,
+   $port
+);
 
 ?>
