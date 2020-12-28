@@ -13,10 +13,6 @@
     <!-- Nav Links -->
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-      <!-- New Arrivals Link -->
-      <li class="nav-item">
-        <a class="nav-link" href="">New Arrivals</a>
-      </li>
 
       <!-- Browse Link -->
       <li class="nav-item">

@@ -29,11 +29,13 @@ Category Banner
 .browse_catBanner {
     height: 300px;
     min-height: 300px;
-    background-color: #FE7966;
+    background-color: #FFF;
+
 }
-    .browse_SortBar a:hover {
-        color: blue;
-    }
+
+.browse_SortBar a:hover {
+    color: blue;
+}
 
 
 /*

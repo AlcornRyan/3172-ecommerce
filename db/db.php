@@ -5,16 +5,20 @@
 	 *	db.php
 	 *	Connects to the Database on localhost.
 	 */
-
-	$host = "localhost";
-	$un = "root";
-	$pw = "";
-	$db = "beautybuy";
-
-	$conn = new mysqli($host, $un, $pw, $db);
-
-	if ($conn->connect_error) {
-		die ("Error connecting to the DB.<br>" . $conn->connect_error);
-	}
+	$user = 'root';
+	$password = 'root';
+	$db = 'inventory';
+	$host = 'localhost';
+	$port = 8889;
+	
+	$link = mysqli_init();
+	$success = mysqli_real_connect(
+	   $link,
+	   $host,
+	   $user,
+	   $password,
+	   $db,
+	   $port
+	);
 
 ?>
