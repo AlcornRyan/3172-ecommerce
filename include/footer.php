@@ -18,24 +18,21 @@
                         <!-- Column 2 -->
                         <div class="col-md-4 footerColumn">
                             <h5>Navigation</h5>
-                            <p>Home page</p>
-                            <p>Browse</p>
-                            <p></p>
+                            <p> <a href="../index.php" >Home</a> <p>
+                            <p> <a href="index.php?page=browse"> Browse</a> </p>
+                            <p> <a href="index.php?page=signup"> Sign Up </a></p>
+                            <p> <a href="index.php?page=signin">Log in</p>
                         </div>
                         
                         <!-- Column 3 -->
                         <div class="col-md-4 footerColumn">
-                            <h5>Navigation</h5>
-                            <p>Home page</p>
-                            <p>Browse</p>
-                            <p></p>
                         </div>
                         
                         <!-- Column 4 -->
                         <div class="col-md-4 footerColumn">
                             <h5>Contact us</h5>
                             <p>Feedback</p>
-                            <p>Support</p>
+                            <p>FAQ</p>
                         </div>
                     </div>
                 </div>

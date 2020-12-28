@@ -1,0 +1,12 @@
+.table td {
+    text-align: center; 
+ }
+
+ .item{
+     min-height: 10rem;
+     height: 10rem;
+ }
+
+ .checkout{
+     background-color: #c4c4c4;
+ }

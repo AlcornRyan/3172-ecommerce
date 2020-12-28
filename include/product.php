@@ -2,7 +2,7 @@
     <div class="row p-2">
 
         <!-- Product Images and Product -->
-        <div class="col-sm-12 col-md-12 bg-light">
+        <div class="col-sm-12 col-md-12">
         <?php
 
             // Product Container
