@@ -91,11 +91,11 @@
 
 		require_once('include/payment.php');
 
-	} else if ($_GET['page'] == "faq") { 			// page == payment
+	} else if ($_GET['page'] == "faq") { 			// page == faq
 
 		require_once('include/faq.php');
 
-	} else if ($_GET['page'] == "feedback") { 			// page == payment
+	} else if ($_GET['page'] == "feedback") { 			// page == feedback
 
 		require_once('include/feedback.php');
 

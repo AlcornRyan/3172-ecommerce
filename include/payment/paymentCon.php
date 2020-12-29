@@ -1,6 +1,6 @@
-<div class="col-10 payment">
+<div class="col-10 payment py-5">
     <div class="table-responsive table-bordered">
-        <table class="table ">
+        <table class="table">
             <thead class="thead-light">
                 <tr class="product">
                     <th scope="col">Product Name</th>

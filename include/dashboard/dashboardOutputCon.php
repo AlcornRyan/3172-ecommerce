@@ -78,7 +78,7 @@
                         */
                         if ($_GET['nav'] == "account") {
                             // Dashboard Account Item
-                            echo "Account item";
+                            require_once('dashAccount.php');
                         }
                         /*
                         * nav == users 
