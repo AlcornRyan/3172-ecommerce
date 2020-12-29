@@ -10,7 +10,13 @@
             ?>
 
         </div>
-        <!-- END OF TOP ROW -->
+
+        <!-- Pagination -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Logic for Pagination -->
+            </div>
+        </div>
 
     </div>
 </div>

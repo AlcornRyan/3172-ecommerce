@@ -37,11 +37,6 @@
 
       <!-- Account Link -->
       <li class="nav-item">
-        <a class="nav-link" href="index.php?page=account">Account</a>
-      </li>
-
-      <!-- Account Link -->
-      <li class="nav-item">
         <a class="nav-link" href="index.php?page=dashboard">Dashboard</a>
       </li>
 

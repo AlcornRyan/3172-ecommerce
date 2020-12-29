@@ -3,7 +3,7 @@
 * Loop through all products
 */
 
-$getProductsQuery = $getProductsQuery = "SELECT * FROM products $sortCategoryQuery $sortPriceQuery";
+$getProductsQuery = $getProductsQuery = "SELECT * FROM products $sortCategoryQuery $sortPriceQuery $sortItemsPerPageQuery";
 
 
 ?>

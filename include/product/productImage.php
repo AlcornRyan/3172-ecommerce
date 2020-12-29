@@ -11,7 +11,11 @@
             <div class="mb-2 productImageSelectorCon">
                 <div class="row">
 
-                    <!-- Image One -->
+                    <!-- 
+                        Image One
+                        This image was taken from the Sephora website.
+                        We do not own the rights to this picture, or any product pictures on our website.
+                    -->
                     <div class="col-md-4">
                         <?php 
                         if ($pImgOne != "") {
@@ -22,7 +26,11 @@
                         ?>
                     </div>
 
-                    <!-- Image Two -->
+                    <!-- 
+                        Image Two
+                        This image was taken from the Sephora website.
+                        We do not own the rights to this picture, or any product pictures on our website.
+                    -->
                     <div class="col-md-4">
                         <?php 
                         if ($pImgTwo != "") {
@@ -33,7 +41,11 @@
                         ?>
                     </div>
 
-                    <!-- Image Three -->
+                    <!-- 
+                        Image Three
+                        This image was taken from the Sephora website.
+                        We do not own the rights to this picture, or any product pictures on our website.
+                    -->
                     <div class="col-md-4">
                         <?php 
                         if ($pImgThree != "") {

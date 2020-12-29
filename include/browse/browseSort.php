@@ -58,8 +58,9 @@ if (isset($_GET['itemsPerPage'])) {
     $sortItemsPerPage = $_GET['itemsPerPage'];
 
     if ($sortPrice == "all") {
-        $sortItemsPerPageQuery = "";
+        $sortItemsPerPageQuery = "LIMIT 20";
     } else {
+        $sortItemsPerPage = $_GET['itemsPerPage'];
         $sortItemsPerPageQuery = "LIMIT $sortItemsPerPage";
     }
 }
