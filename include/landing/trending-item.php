@@ -2,7 +2,7 @@
 /*
 * Loop through all products
 */
-$getProductsQuery = $getProductsQuery = "SELECT * FROM products limit 8";
+$getProductsQuery = $getProductsQuery = "SELECT * FROM products WHERE s_id='1' LIMIT 8";
 
 ?>
 

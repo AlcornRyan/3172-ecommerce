@@ -8,7 +8,7 @@
                 
                 <!-- Column 1 -->
                 <div class="col-md-4 footerColumn">
-                <img src="../images/logo.svg" alt="beatuBuy logo">
+                <img src="images/logo.svg" alt="beatuBuy logo" class="mb-2">
                     <h6>Simple. Elegant. Beautiful.</h6>
                     <p>Designer brands at discount prices</p>
                 </div>
@@ -27,8 +27,8 @@
                         <!-- Column 4 -->
                         <div class="col-md footerColumn">
                             <h5>Contact us</h5>
-                            <p><a href="../index.php?page=feedback">Feedback</a></p>
-                            <p><a href="../index.php?page=faq">FAQ</a></p>
+                            <p><a href="index.php?page=feedback">Feedback</a></p>
+                            <p><a href="index.php?page=faq">FAQ</a></p>
                         </div>
                     </div>
                 </div>

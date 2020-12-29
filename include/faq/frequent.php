@@ -1,15 +1,17 @@
-<div class="container">
-    <div class="row">
+<div class="container py-5">
+    <div class="row pt-5 pb-4">
         <h2>Frequently Asked Questions (FAQ)</h2>
     </div>
     <div class="row">
         <div id="accordion">
-            <div class="card">
+
+            <!-- What is BeautyBuy -->
+            <div class="card mb-4">
                 <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
                             aria-expanded="true" aria-controls="collapseOne">
-                            What is BeatyBuy?
+                            What is BeautyBuy?
                         </button>
                     </h5>
                 </div>
@@ -29,7 +31,9 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+
+            <!-- How long will my item take to ship? -->
+            <div class="card mb-4">
                 <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
@@ -53,7 +57,9 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            
+            <!-- What is your return policy? -->
+            <div class="card mb-5">
                 <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
@@ -77,6 +83,7 @@
                     </div>
                 </div>
             </div>
+            <br /><br/>
         </div>
     </div>
 </div>

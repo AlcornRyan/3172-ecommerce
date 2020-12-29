@@ -43,7 +43,12 @@ if (!isset($_COOKIE['loggedIn'])) {
             require_once('dashboard/dashboardNav.php');
             
             // Dashboard Sort Bar
-            require_once('dashboard/dashboardSort.php');
+            // ONLY DISPLAY IF ON USER, PRODUCT OR ANALYTICS DASHBOARD
+            if (isset($_GET['nav'])) {
+                if ($_GET['nav'] == 'users' || $_GET['nav'] == 'product' || $_GET['nav'] == 'analytics') {
+                    require_once('dashboard/dashboardSort.php');
+                }
+            }
         
         ?>
         </div>

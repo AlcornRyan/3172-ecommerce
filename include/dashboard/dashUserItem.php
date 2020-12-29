@@ -61,8 +61,7 @@ if (isset($_COOKIE['userType'])) {
         * Store employee users
         * Customer users !!!!!!!!!!!!!!!!!!!!!!!!!!!
         */
-        // Query to find Store employee information, doesn't need store id because it's redundant
-        $getUsersQuery = "SELECT `u_id`, `u_fname`, `u_lname`, `u_email`, `u_type` FROM users WHERE `s_id`='{$_COOKIE['userStore']}'";
+        $getUsersQuery = "SELECT * FROM users WHERE `s_id`='{$_COOKIE['userStore']}'";
         
         // Needs a purchase history table to query users who purchased their items
 
@@ -73,7 +72,7 @@ if (isset($_COOKIE['userType'])) {
         * If userType == 4 == STORE Customer Service
         * Should probably show order history for that user? !!!!!!!!!!!!!!!!!!!!!!!!!!!
         */
-        $getUsersQuery = "SELECT `u_id`, `u_fname`, `u_lname`, `u_email`, `u_type` FROM users WHERE `s_id`='{$_COOKIE['userStore']}'";
+        $getUsersQuery = "SELECT * FROM users WHERE `s_id`='{$_COOKIE['userStore']}'";
 
     }
     else {

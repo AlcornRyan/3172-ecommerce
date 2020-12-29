@@ -29,7 +29,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
                     <label for="prod_Category">Product Category</label>
                     <select class="form-control" id="prod_Category" name="prod_Category" required>
-                        <option selected>Select a Category</option>
+                        <option value="" selected>Select a Category</option>
                         <option value="shampoo">Shampoo</option>
                         <option value="conditioner">Conditioner</option>
                         <option value="hairspray">Hairspray</option>

@@ -6,7 +6,7 @@
   </button>
 
   <!-- LOGO -->
-  <a class="navbar-brand" href="index.php"><img class="logo" src="../images/logo.svg" alt="beatuBuy logo"></a>
+  <a class="navbar-brand" href="index.php"><img class="logo" src="images/logo.svg" alt="beatuBuy logo"></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
@@ -34,11 +34,6 @@
     */
 		?>
     <ul class="nav navbar-nav navbar-right">
-
-      <!-- Account Link -->
-      <li class="nav-item">
-        <a class="nav-link" href="index.php?page=account">Account</a>
-      </li>
 
       <!-- Account Link -->
       <li class="nav-item">

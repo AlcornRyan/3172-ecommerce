@@ -40,9 +40,12 @@ if (isset($_COOKIE['userType'])) {
     }
     else if ($_COOKIE['userType'] == "3") {
         
+        $userStoreNumber = $_COOKIE['userStore'];
+
         /*
         * If userType == 3 == STORE OWNER
         */
+        $getUsersQuery = "SELECT * FROM products WHERE s_id='$userStoreNumber'";
 
     }
     else if ($_COOKIE['userType'] == "5") {
@@ -183,7 +186,7 @@ if($getProductResult->num_rows > 0) {
                     <!-- Product Rating -->
                     <div class="col-xs-12 col-sm-12 col-md-6">
                         <br/><br/><br/>
-                        <a class="float-right dash_viewItem" href="index.php?page=product&view=fromDash<?php echo $row['s_id']; ?>">View Product</a>
+                        <a class="float-right dash_viewItem" href="index.php?page=product&productID=<?php echo $row['p_id']; ?>">View Product</a>
                     </div>
 
                 </div>
