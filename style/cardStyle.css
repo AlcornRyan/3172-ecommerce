@@ -1,14 +1,30 @@
 .card_Container {
     min-height: 220px;
     border: 1px solid #cccccc;
+    text-align: center;
     background-color: #FFFFFF;
 }
     .card_Container:hover .card_Title {
         color: blue;
     }
+    .card_Container h6 {
+        margin-top: none;
+        margin-bottom: 5px;
+    }
+    .card_Container p {
+        margin: 0px;
+        font-size: 1em;
+        max-width: 80%;
+        margin-left: 10%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
 .card_Image {
-    min-height: 190px;
-    background-color: #eeeeee;
+    min-height: 250px;
 }
-
+.card_Image img {
+    width: 60%;
+    padding-top: 30px;
+}

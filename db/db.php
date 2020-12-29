@@ -1,15 +1,15 @@
 <?php
 
-    /*
-     *  DO NOT MODIFY
+  /*
+   *  DO NOT MODIFY
 	 *	db.php
 	 *	Connects to the Database on localhost.
 	 */
 
-	$host = "localhost";
-	$un = "root";
-	$pw = "";
-	$db = "beautybuy";
+	$host = "db.cs.dal.ca";
+	$un = "alcorn";
+	$pw = "M3qg2VGiii4B7smGdoupmuTa8";
+	$db = "alcorn";
 
 	$conn = new mysqli($host, $un, $pw, $db);
 

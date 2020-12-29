@@ -3,3 +3,7 @@
     background-color: #FFFFFF;
     border-bottom: 1px solid #cccccc;
 }
+
+.logo:hover {
+    filter: saturate(4);
+}

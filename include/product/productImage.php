@@ -4,26 +4,56 @@
             
             <!-- Larger Image -->
             <div class="my-2 product_ImageCon">
-                Image
+                <img src="<?php echo $row['p_img_1']; ?>" class="productImg_Large" />
             </div>
 
             <!-- Image Selector -->
             <div class="mb-2 productImageSelectorCon">
                 <div class="row">
 
-                    <!-- Image One -->
+                    <!-- 
+                        Image One
+                        This image was taken from the Sephora website.
+                        We do not own the rights to this picture, or any product pictures on our website.
+                    -->
                     <div class="col-md-4">
-                        1
+                        <?php 
+                        if ($pImgOne != "") {
+                        ?>
+                        <img src="<?php echo $pImgOne; ?>" class="productImg_Small" />
+                        <?php
+                        }
+                        ?>
                     </div>
 
-                    <!-- Image Two -->
+                    <!-- 
+                        Image Two
+                        This image was taken from the Sephora website.
+                        We do not own the rights to this picture, or any product pictures on our website.
+                    -->
                     <div class="col-md-4">
-                        2
+                        <?php 
+                        if ($pImgTwo != "") {
+                        ?>
+                        <img src="<?php echo $pImgTwo; ?>" class="productImg_Small" />
+                        <?php
+                        }
+                        ?>
                     </div>
 
-                    <!-- Image Three -->
+                    <!-- 
+                        Image Three
+                        This image was taken from the Sephora website.
+                        We do not own the rights to this picture, or any product pictures on our website.
+                    -->
                     <div class="col-md-4">
-                        3
+                        <?php 
+                        if ($pImgThree != "") {
+                        ?>
+                        <img src="<?php echo $pImgThree; ?>" class="productImg_Small" />
+                        <?php
+                        }
+                        ?>
                     </div>
 
                 </div>

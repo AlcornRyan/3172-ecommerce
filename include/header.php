@@ -6,17 +6,13 @@
   </button>
 
   <!-- LOGO -->
-  <a class="navbar-brand" href="index.php">BeautyBuy</a>
+  <a class="navbar-brand" href="index.php"><img class="logo" src="images/logo.svg" alt="beatuBuy logo"></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
     <!-- Nav Links -->
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-      <!-- New Arrivals Link -->
-      <li class="nav-item">
-        <a class="nav-link" href="">New Arrivals</a>
-      </li>
 
       <!-- Browse Link -->
       <li class="nav-item">
@@ -26,10 +22,10 @@
     </ul>
     
     <!-- Search Bar & Button -->
-    <form class="form-inline my-2 my-lg-0 mr-2">
+    <!-- <form class="form-inline my-2 my-lg-0 mr-2">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
 
     <?php
 		if (isset($_COOKIE['loggedIn'])) {
@@ -41,7 +37,7 @@
 
       <!-- Account Link -->
       <li class="nav-item">
-        <a class="nav-link" href="index.php?page=Account">Account</a>
+        <a class="nav-link" href="index.php?page=dashboard">Dashboard</a>
       </li>
 
       <!-- Logout Link -->
